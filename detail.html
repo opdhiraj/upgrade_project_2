@@ -9,10 +9,12 @@
     <div>
         <div>
             <header>
-                <img src="C:\Users\OM\Desktop\upgrad\hotel booking\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
-                    alt="logo" width="150" height="200">
-                    <a href=login.html target="_blank">Login</a>
-                
+                <a href="index.html" target="_self">
+                    <img src="C:\Users\OM\Desktop\upgrad\hotel booking\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
+                        alt="logo" width="150" height="200"> </a>
+
+                <a href=login.html target="_self">Login</a>
+
             </header>
 
         </div>
@@ -20,22 +22,50 @@
         <div>
             <article>
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                alt="Radisson Blu Hotel">
+                    alt="Radisson Blu Hotel">
 
-              <div><a href="payment.html" target="_self">Book Now</a> </div>  
-              <h2>Radisson Blu Hotel</h2>
-              <h3>Rating</h3>
-              <p>5 Star</p>
-              <h3>AMENITIES</h3>
-              <Ul>
-                  <li>Room Service</li>
-                  <li>Restaurant</li>
-                  <li>Business center</li>
-                  <li>Fitness center</li>
-                  <li>Pool</li>
-              </Ul>
-              <h3>Description</h3>
-              <p>Los bancos del sector público han anunciado que proporcionarán préstamos sin garantía de hasta  personas para cubrir el costo del tratamiento  y el de sus familiares. Esto se produce a raíz de la segunda ola en curso de la pandemia que se ha extendido por todo el país y ha desatado incalculables miserias en las familias de todos los grupos de ingresos.</p>
+                <div>
+                    <form action="payment.html" method="GET" target="_self">
+                        <label>Adults:</label>
+                        <input type="number" min="1" required>
+                        <div>
+                            <label>Name:</label>
+                            <input type="text" name="name" placeholder="Enter Name" required>
+
+                        </div>
+
+                        <label> From Date:</label>
+                        <input type="date" name="date" required><br>
+
+                        <label>To Date:</label>
+                        <input type="date" name="date" required>
+
+                        <br> <label>Total:</label>
+                        <input type="number" name="total" disabled><br>
+                        <input type="submit" value="Book Now">
+                        <!-- <button>Book now</button> -->
+                    </form>
+                </div>
+
+
+
+
+                <h2>Radisson Blu Hotel</h2>
+                <h3>Rating</h3>
+                <p>5 Star</p>
+                <h3>AMENITIES</h3>
+                <Ul>
+                    <li>Room Service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </Ul>
+                <h3>Description</h3>
+                <p>Los bancos del sector público han anunciado que proporcionarán préstamos sin garantía de hasta
+                    personas para cubrir el costo del tratamiento y el de sus familiares. Esto se produce a raíz de la
+                    segunda ola en curso de la pandemia que se ha extendido por todo el país y ha desatado incalculables
+                    miserias en las familias de todos los grupos de ingresos.</p>
             </article>
 
         </div>
@@ -43,7 +73,7 @@
         <div>
             <footer>
                 <div>
-                    <a href="contact.html" target="_blank"> Contact Us</a>
+                    <a href="contact.html" target="_self"> Contact Us</a>
 
                 </div>
                 <div>
