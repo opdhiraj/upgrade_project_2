@@ -1,0 +1,33 @@
+#main-p-div{
+    width: 100%;
+   background-color: #e0e0e0;
+   /* margin: -8px 0px -16px -7px; */
+
+}
+#hotel-rad-pay-detail{
+    width: 50%;
+    height: 20%;
+    background-color:  rgb(132,136,139);
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+#radisson-image-p{
+    height: 500px;
+    width: 500px;
+}
+#cust-name{
+    margin: 2%;
+}
+#tariff-div{
+    margin: 2%;
+    border: 1px solid blue;
+    border-radius: 2px;
+   
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}

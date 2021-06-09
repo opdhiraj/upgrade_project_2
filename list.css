@@ -1,0 +1,23 @@
+#main-div{
+    width: 100%;
+   background-color: #e0e0e0;
+   margin: -8px 0px -16px -2px;
+
+}
+
+.detail-rest{
+    height: 200px;
+    width: 250px;
+}
+.outer-div{
+    width: 40%;
+    border: 1px solid black;
+    background-color: rgb(132,136,139) ;
+    margin: 2%;
+
+}
+.detail-rest{
+    width: 40%;
+    border: 1px solid blue;
+}
+

@@ -1,0 +1,33 @@
+
+.main-div{
+    width: 100%;
+   background-color: #e0e0e0;
+   /* margin: -8px 0px -16px -7px; */
+}
+
+
+.radisson-image{
+    height: 500px;
+    width: 500px;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 0%;
+}
+
+
+#form-div{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+
+#hotel-disp{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+/* #un-list{
+   padding: 2px;
+} */
