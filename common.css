@@ -1,5 +1,9 @@
 *{
-    margin: 0;
+    margin: 0px;
+   font-family: 'Ubuntu', sans-serif;
+   text-decoration: none;
+   
+   
 }
 #main-body{
     margin: 1px;
@@ -43,22 +47,36 @@ border-radius: 25%;
 .social-media-image{
     height: 20px;
     width: 22px;
+    
+    /* display: block; */
+    float: right;
+    /* bottom: 5px; */
+    /* padding: 5px; */
 }
 
 
-/* .radisson-image{
+.radisson-image{
     height: 500px;
     width: 500px;
-} */
+}
 
 
 .header-bg{
 background-color: rosybrown;
 /* margin: -4px; */
-
+position: sticky;
+top: 0;
 }
 
-
+.login-div{
+    
+     position: absolute;
+   right: 15px;
+   top: 45%;
+  /* font-weight: bold; */
+  color: black; 
+  
+}
 
 
 
@@ -75,7 +93,15 @@ background-color: rosybrown;
 }
 
 #search-bar{
-    border: 2px solid black;
+    
+    background-color:#f1f1f1 ;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    border-radius: 12px;
+    padding: 10px;
+   
 }
 
 
@@ -83,9 +109,35 @@ background-color: rosybrown;
 
     background-color: rosybrown; 
     /* margin-right: -1%; */
-    margin-left: 2px;
+    margin-left: 0px;
     margin-bottom: 3px;
+    position: sticky;
+    bottom: 0;
+    padding: 2px;
 }
+.copyright{
+   text-align: center;
+}
+.contact-div a{
+  /* padding: 10px;   */
+ color: black;
+ /* left: 5px; */
+ margin-top: 10px; 
+}
+.contact-div span{
+    padding: 5px;
+    top: 10px;
+}
+
+
+#view-div{
+    
+    position: absolute;
+    bottom: -16px;
+    left:50%;
+    color: black;
+}
+
 
 .loader{
     margin: 0;

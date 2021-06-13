@@ -12,22 +12,69 @@
     margin: 0 auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    
 
 }
+
+#hotel-rad-pay-detail p{
+ padding-top:  10px ;
+ padding-right: 10px;
+ 
+}
+#hotel-rad-pay-detail h3{
+    padding-top:  10px;
+    padding-right: 10px;
+    padding-bottom: 10px ;
+}
+
+
 #radisson-image-p{
+    margin-top: -15px;
     height: 500px;
     width: 500px;
 }
-#cust-name{
-    margin: 2%;
+#cust-name p{
+    font-weight: bold;
+    /* margin: 2%; */
+    margin-left: 20px;
+    /* margin: 5px; */
+    padding: 5px;
+
 }
-#tariff-div{
-    margin: 2%;
-    border: 1px solid blue;
+
+#cust-name span{
+    font-weight: normal;
+
+}
+#tariff-div {
+    margin: 25px;
+    border: 1px solid black;
     border-radius: 2px;
-   
+   font-weight: bold;
     padding-left: 2%;
     padding-top: 1%;
     padding-right: 2%;
     padding-bottom: 1%;
+    
 }
+
+#tariff-div p{
+    padding: 5px;
+}
+
+
+#tariff-div span{
+    font-weight: normal;
+}
+section div{
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+}
+    
+a{
+    
+color: black;
+font-weight: bold;
+}
+
