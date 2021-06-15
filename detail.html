@@ -13,7 +13,8 @@
         <div class="header-bg">
             <header>
                 <a href="index.html" target="_self">
-                    <img   class="logo-image" src="C:\Users\OM\Desktop\upgrad\hotel booking\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
+                    <img class="logo-image"
+                        src="C:\Users\OM\Desktop\upgrad\hotel booking\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
                         alt="logo" width="150" height="200"> </a>
 
                 <a class="login-div" href=login.html target="_self">Login</a>
@@ -24,64 +25,93 @@
 
         <div>
 
-            <section>
+            <section  >
+
+                <div id="section-div" >
+
+                    <div id="radisson-image-sec">
+                        <img class="radisson-image"
+                            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                            alt="Radisson Blu Hotel">
+
+                    </div>
+
+
+                    <div id="form-div">
+                        <form action="payment.html" method="GET" target="_self">
+                            <div>  
+                                <label>Adults:</label>
+                                <input type="number" placeholder="1" min="1" required>
+    
+                            </div>
+                           
+                            <div>
+                                <label>Name:</label>
+                                <input type="text" name="name" placeholder="Enter Name" required>
+
+                            </div>
+
+                            <div>
+                                <label> From Date:</label>
+                                <input type="date" name="date" required><br>
+                            </div>
+
+                            <div>
+                                <label>To Date:</label>
+                                <input type="date" name="date" required>
+                            </div>
+                            <div>
+                                <br> <label>Total:</label>
+
+                                <input type="number" name="total" disabled><br>
+                            </div>
+                            
+
+                                 <div id="button-div">
+
+                                    <input type="submit" value="Book Now">
+                                 </div>
+
+                            
+
+                            
+                            <!-- <button>Book now</button> -->
+                        </form>
+                    </div>
 
 
 
 
-                <img class="radisson-image" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                    alt="Radisson Blu Hotel">
+                </div>
 
-                <div id="form-div">
-                    <form action="payment.html" method="GET" target="_self">
-                        <label>Adults:</label>
-                        <input type="number" min="1" required>
-                        <div>
-                            <label>Name:</label>
-                            <input type="text" name="name" placeholder="Enter Name" required>
 
-                        </div>
+                <div id="hotel-disp">
 
-                        <label> From Date:</label>
-                        <input type="date" name="date" required><br>
+                    <h2>Radisson Blu Hotel</h2>
+                    <h3>Rating</h3>
+                    <p>5 Star</p>
+                    <h3>AMENITIES</h3>
+                    <Ul id="un-list">
+                        <li>Room Service</li>
+                        <li>Restaurant</li>
+                        <li>Business center</li>
+                        <li>Fitness center</li>
+                        <li>Pool</li>
+                    </Ul>
+                    <h3>Description</h3>
+                    <p>Los bancos del sector público han anunciado que proporcionarán préstamos sin garantía de hasta
+                        personas para cubrir el costo del tratamiento y el de sus familiares. Esto se produce a raíz de
+                        la
+                        segunda ola en curso de la pandemia que se ha extendido por todo el país y ha desatado
+                        incalculables
+                        miserias en las familias de todos los grupos de ingresos.</p>
 
-                        <label>To Date:</label>
-                        <input type="date" name="date" required>
 
-                        <br> <label>Total:</label>
-                        <input type="number" name="total" disabled><br>
-                        <input type="submit" value="Book Now">
-                        <!-- <button>Book now</button> -->
-                    </form>
                 </div>
 
 
 
-                          <div id="hotel-disp">
 
-                            <h2>Radisson Blu Hotel</h2>
-                            <h3>Rating</h3>
-                            <p>5 Star</p>
-                            <h3>AMENITIES</h3>
-                            <Ul id="un-list">
-                                <li>Room Service</li>
-                                <li>Restaurant</li>
-                                <li>Business center</li>
-                                <li>Fitness center</li>
-                                <li>Pool</li>
-                            </Ul>
-                            <h3>Description</h3>
-                            <p>Los bancos del sector público han anunciado que proporcionarán préstamos sin garantía de hasta
-                                personas para cubrir el costo del tratamiento y el de sus familiares. Esto se produce a raíz de la
-                                segunda ola en curso de la pandemia que se ha extendido por todo el país y ha desatado incalculables
-                                miserias en las familias de todos los grupos de ingresos.</p>
-            
-
-                           </div>
-
-          
-
-                
 
             </section>
 
@@ -93,25 +123,9 @@
         </div>
 
         <div class="footer-div">
-            <footer>
+            <footer id="footer-in">
                 <div class="contact-div">
                     <a href="contact.html" target="_self"> Contact Us</a>
-
-                </div>
-                <div>
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img class="social-media-image" src="assests/images/facebook.png" height="20" width="22">
-                    </a>
-
-                    <a href="https://www.instagram.com" target="_blank>">
-                        <img  class="social-media-image" src="assests/images/instagram.png" height="20" width="22">
-
-                    </a>
-                    <a href="https://twitter.com" target="_blank>">
-                        <img  class="social-media-image" src="assests/images/twitter.png" height="20" width="22">
-
-                    </a>
-
 
                 </div>
 
@@ -119,6 +133,26 @@
                     <p class="copyright"> &copy;2020 ROOM SEARCH PVT. LTD. </p>
 
                 </div>
+
+
+                <div>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img class="social-media-image" src="assests/images/facebook.png" height="20" width="22">
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank>">
+                        <img class="social-media-image" src="assests/images/instagram.png" height="20" width="22">
+
+                    </a>
+                    <a href="https://twitter.com" target="_blank>">
+                        <img class="social-media-image" src="assests/images/twitter.png" height="20" width="22">
+
+                    </a>
+
+
+                </div>
+
+              
             </footer>
         </div>
 

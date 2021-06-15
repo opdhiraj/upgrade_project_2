@@ -6,15 +6,19 @@
    
 }
 #main-body{
+    width: 99vw; 
+     height: 100%; 
+    /* display: flex; */
     margin: 1px;
-    padding: 0px;
+    /* padding: 10px; */
     box-sizing: border-box;
+    flex-direction: column;
+    
 }
 
 
 .body-dis{
-    width: 100%;
-    
+  width: 100%;
     background-color: #e0e0e0;
     margin-top: -1px;
     margin-bottom: -2px;
@@ -27,31 +31,40 @@
 
 
 .logo-image{
+    display: flex;
     height: 60px;
     width: 60px;
     margin-right: -1px;
+    margin-left: 10%;
 }
 
 .city-image{
 height: 150px;
 width: 150px;
 display: inline;
-
-padding: 4%;
+display: flex;
+box-shadow: 10px 10px 10px grey;
+background: black;
+/* padding: 4%;
 margin-left:3%;
-margin-right: 2%;
+margin-right: 2%; */
 border-radius: 25%;
+
 }
+
+
 
 
 .social-media-image{
     height: 20px;
     width: 22px;
-    
+    margin: 0 auto;
     /* display: block; */
     float: right;
     /* bottom: 5px; */
     /* padding: 5px; */
+    margin-right: 2px;
+    margin-bottom: 5px;
 }
 
 
@@ -62,10 +75,13 @@ border-radius: 25%;
 
 
 .header-bg{
+    display: flex;
+    
 background-color: rosybrown;
-/* margin: -4px; */
+/* margin: -3px; */
 position: sticky;
 top: 0;
+margin-left: -2px;
 }
 
 .login-div{
@@ -81,7 +97,7 @@ top: 0;
 
 
 .search-bar-bg{
-  
+  display: flex;
    height: 380px;
  background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
  background-size: cover;
@@ -101,11 +117,21 @@ top: 0;
     left: 45%;
     border-radius: 12px;
     padding: 10px;
-   
+   outline: none;
 }
 
 
-.footer-div{
+
+.footer-div  {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+
+   /* flex-direction: column; */
+    
 
     background-color: rosybrown; 
     /* margin-right: -1%; */
@@ -115,15 +141,27 @@ top: 0;
     bottom: 0;
     padding: 2px;
 }
+
+
+
 .copyright{
-   text-align: center;
+  
+  align-items: center;
+  /* margin: -8px auto; */
+   align-self: center;
 }
+
+
+
+
 .contact-div a{
   /* padding: 10px;   */
  color: black;
  /* left: 5px; */
  margin-top: 10px; 
 }
+
+
 .contact-div span{
     padding: 5px;
     top: 10px;
@@ -131,11 +169,15 @@ top: 0;
 
 
 #view-div{
-    
-    position: absolute;
+    display: flex;
+    /* position: absolute;
     bottom: -16px;
     left:50%;
-    color: black;
+    color: black; */
+
+    justify-content: center;
+   padding: 2%;
+ 
 }
 
 
@@ -155,4 +197,24 @@ top: 0;
   
 
 }
+.city-cart{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    
+}
+ /* .inner-city-cart:hover {
+   color: black;
+}
+    */
+#footer-in{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
+
+
+   
+
+    
