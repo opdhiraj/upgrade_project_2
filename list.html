@@ -3,8 +3,12 @@
 
 <head>
     <title>list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="list.css">
+   
 </head>
 
 
@@ -20,7 +24,34 @@
                     alt="logo" width="150" height="200">
             </a>
 
-            <a class="login-div" href=login.html target="_self">Login</a>
+            <!-- <a class="login-div" href=login.html target="_self">Login</a> -->
+            <!-- <a class="btn btn-light" href="login.html" data-toggle="modal" data-target="#login-form"
+                    id="login-buttom">Login</a> -->
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#login-form2" id="login-buttom">
+                        Login
+                    </button>
+            
+                    <div class="modal" tabindex="-1" id="login-form2" role="dialog">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Please Login</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
 
         </header>
 
@@ -38,12 +69,13 @@
             <div class="list-div">
                 <ul>
                     <li>
-                        <a id="list1" href="#detail-rest" target="_self"><span>List View</span></a>
-
+                        <!-- <a id="list1" href="#detail-rest" target="_self"><span>List View</span></a> -->
+                        <a class="btn btn-primary" href="#detail-rest" role="button">List View</a>
+                       
                     </li>
                     <li>
-                        <a href="#mapview" target="_self"> <span>Map View</span></a>
-
+                        <!-- <a href="#mapview" target="_self"> <span>Map View</span></a> -->
+                        <a class="btn btn-primary" href="#mapview" role="button">Map View</a>
                     </li>
                 </ul>
 
@@ -154,8 +186,8 @@
 
 
                 <div class="inner-footer-div">
-                    <a class="contact-div" href="contact.html" target="_self"><span>Contact Us</span></a>
-
+                    <!-- <a class="contact-div" href="contact.html" target="_self"><span>Contact Us</span></a> -->
+                    <a class="btn btn-info" href="contact.html" role="button" id="contact-button">Contact Us</a>
                 </div>
 
 

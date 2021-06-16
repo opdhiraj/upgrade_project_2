@@ -112,12 +112,16 @@ margin-left: -2px;
     
     background-color:#f1f1f1 ;
     border: 1px solid #f1f1f1;
-    position: absolute;
-    top: 40%;
-    left: 45%;
+    /* position: absolute; */
+    /* top: 40%;
+    left: 45%; */
     border-radius: 12px;
     padding: 10px;
    outline: none;
+   height: 44px;
+    width: 300px;
+    margin: 0 auto;
+    align-self: center;
 }
 
 
@@ -194,9 +198,17 @@ margin-left: -2px;
  
     margin: 0 auto;
     margin-top: 20%;
-  
-
+    animation: rotating 1s linear infinite;
 }
+@keyframes rotating{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
 .city-cart{
     display: flex;
     justify-content: space-evenly;
@@ -211,6 +223,18 @@ margin-left: -2px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+ 
+#login-buttom{
+    right: 0px;
+    position: absolute;
+    top: 0px;
+    margin-top: 5px;
+}
+
+#contact-button{
+    margin-left: 8px;
 }
 
 
