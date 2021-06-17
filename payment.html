@@ -3,7 +3,9 @@
 
 <head>
     <title>payment</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="payment.css">
 </head>
@@ -19,27 +21,30 @@
                         alt="logo" width="150" height="200">
                 </a>
 
-                <a class="login-div" href=login.html target="_self">Login</a>
+                <!-- <a class="login-div" href=login.html target="_self">Login</a> -->
+                <a class="btn btn-light" href="#" data-toggle="modal" data-target="login-form2" id="login-buttom" role="button">Login</a>
             </header>
         </div>
 
         <!-- <div id="payment-sec"> -->
 
 
-            <section id="payment-section-div">
+            <section id="sec-pay">
 
-                 <div id="dix-1">
-                    <!-- <div id="hotel-rad-pay-detail"> -->
+                 <!-- <div id="dix-1"> -->
+                    <div id="payment-section-div">
 
-                        <div>
+
+
+                        <!-- <div> -->
                             <img id="radisson-image-p"
                                 src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                                 alt="Radisson Blu Hotel">
-                        </div>
+                        <!-- </div> -->
 
 
 
-                        <div>
+                        <div id="dis-div-hotel">
                             <h3>Radisson Blu Hotel</h3>
                             <p>#38 0f 1289 hotels in New Delhi</p>
                             <p>National Highway 8, New Delhi 110017 New Delhi</p>
@@ -50,12 +55,12 @@
 
 
 
-                    <!-- </div> -->
+                    </div>
 
 
 
 
-                </div>
+                <!-- </div> -->
 
 
 
@@ -82,8 +87,7 @@
 
     <div id="pay-now">
 
-        <a href="payment.html" target="_self"><span>Pay Now</span></a>
-
+        <a class="btn btn-success" disabled href="payment.html" role="button" >Pay now</a>
 
     </div>
 </div>
@@ -106,8 +110,8 @@
 
 
                 <div class="contact-div">
-                    <a href="contact.html" target="_blank">Contact Us</a>
-
+                    <!-- <a href="contact.html" target="_blank">Contact Us</a> -->
+                    <a class="btn btn-info" href="contact.html" role="button" id="contact-button">Contact Us</a>
                 </div>
 
 

@@ -17,22 +17,22 @@
 
 
 #form-div{
-    display: flex;
-    width: 25%;
-    height: 500px;
+    /* display: flex; */
+    width: 30%;
+    height: 601px;
     justify-content: space-between;
 /*     
      margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 1%;  */
     margin-top: 0px;
-    padding: 5%;
+    padding: 1%;
     border: 1px solid black;
     
     
 }
 #form-div div {
-padding: 12%;
+padding: 6%;
 
 }
 

@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="common.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    
+
 
 </head>
 
@@ -19,39 +19,50 @@
     <div class="body-dis">
         <div class="header-bg">
             <header>
+
                 <img class="logo-image"
                     src="C:\Users\OM\Desktop\upgrad\hotel booking\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"
                     alt="logo" width="150" height="200">
 
+                <div class="container">
 
-                <!-- <a class="login-div" href=login.html target="_self">Login</a> -->
-                <a class="btn btn-light" href="#" data-toggle="modal" data-target="login-form2" id="login-buttom" role="button">Login</a>
+                    <!-- <a class="login-div" href=login.html target="_self">Login</a> -->
+                    <a class="btn btn-light" href="#" data-toggle="modal" data-target="#login-form2" id="login-buttom"
+                        role="button">Login</a>
 
-                
-        
-                <div class="modal"  id="login-form2" role="dialog">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Modal title</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+                    
+
+
+
+                    <div class="modal fade" id="login-form2" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Please login</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <label>Username</label>
+                                        <input type="text" name="username" class="form-control" placeholder="username">
+            
+                                        <label>Passward</label>
+                                        <input type="password" name="passward" class="form-control" placeholder=" Enter Username">
+                                    </form>
+            
+                                </div>
+                                <div class="modal-footer">
+                                    
+                                    <button type="button" class="btn btn-primary">Login</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <form>
-                                <label>Username</label>
-                                <input type="text" name="username" class="form-control" placeholder="username">
-                            </form>
-                        
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-               
+                 </div>
+
 
 
             </header>
@@ -129,10 +140,32 @@
                 <!-- <div class="contact-div"> -->
 
                 <!-- <a href="contact.html" target="_self"> <span>Contact Us</span></a> -->
-                <a class="btn btn-info" href="contact.html" role="button" id="contact-button">Contact Us</a>
-                <!-- </div> -->
 
-                
+                <a class="btn btn-info" href="contact.html" role="button" id="contact-button">Contact Us</a> 
+
+
+                <!-- </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

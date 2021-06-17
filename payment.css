@@ -19,36 +19,43 @@
 
 }
 
+
+/* 
 #hotel-rad-pay-detail p{
  padding-top:  10px ;
  padding-right: 10px;
  
-}
-#hotel-rad-pay-detail h3{
+ } */
+
+
+
+
+/* #hotel-rad-pay-detail h3{ */
     /* width: 500px; */
     /* height: 300px; */
     /* display: flex; */
-    padding-top:  10px;
+    /* padding-top:  10px;
     padding-right: 10px;
-    padding-bottom: 10px ;
-}
+    padding-bottom: 10px ; */
+} 
 
 
-#radisson-image-p{
+/* #radisson-image-p{
     margin-top: -28px;
-    /* height: 500px;
-    width: 500px; */
+    height: 500px;
+    width: 500px;
     max-width: 300px;
     max-height: 270px;
-}
-#cust-name p{
+} */
+
+ #cust-name p{
     font-weight: bold;
-    /* margin: 2%; */
+    margin: 2%;
     margin-left: 20px;
-    /* margin: 5px; */
+    margin: 5px;
     padding: 5px;
 
-}
+} 
 
 #cust-name span{
     font-weight: normal;
@@ -74,11 +81,11 @@
 #tariff-div span{
     font-weight: normal;
 }
-section div{
+/* section div{
    padding-top: 15px;
    padding-right: 15px;
    padding-bottom: 15px;
-}
+} */
     
 a{
     
@@ -92,9 +99,12 @@ font-weight: bold;
     display: flex;
 }
 #payment-section-div{
-    /* display: flex; */
-    width: 100vw;
-    height: 700px;
+    display: flex;
+    width: 700px;
+    height: 250px;
+    margin: 70px auto;
+    padding: 1px;
+    background-color: rgb(132, 136, 139);
 }
 
 #dix-1{
@@ -105,16 +115,47 @@ font-weight: bold;
 }
 
 #cust-det-sec{
-    width: 900px;
+   
+    /* width: auto; */
     display: flex;
     border-radius: 2px;
     border: 1px solid black;
     border-radius: 2px;
    font-weight: bold;
    background-color: rosybrown;
-   margin-left: 12%;
-   margin-bottom: 15%;
+   margin-left: 30px;
+   margin-right: 30px;
+   justify-content: space-between;
+
+
+
+   /* margin-bottom: 15%; */
+   /* margin: 0 auto; */
+   /* align-self: center; */
+   /* margin-bottom: 15px;
+   margin-left: 10px; */
+   
+
+
+
 }
+
+
+
 #pay-now{align-self: center;
 
+}
+
+#dis-div-hotel{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    align-self: center;
+    margin-left: 9px;
+}
+
+
+
+#sec-pay{
+    height: 600px;
 }
