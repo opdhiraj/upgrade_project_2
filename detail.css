@@ -58,7 +58,7 @@ p{
     justify-self: end;
     
     border: 1px solid black;
-margin-top: 15px;
+margin-top: 58px;
 margin-left:3% ;
     column-rule-style: solid;
 }
@@ -71,3 +71,7 @@ margin-left:3% ;
 #button-div{
     padding: 5px;
 }
+.checked{
+    color: yellow;
+    }
+    

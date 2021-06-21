@@ -1,3 +1,4 @@
+
 #main-div{
     
     width: 100%;
@@ -58,19 +59,23 @@
     
 }
 
-div.list-div{
+.list-div{
   padding-top: 5px;
   text-align: center;
+  display: flex;
+    align-items: center;
+     justify-content: space-around;
 }
 
 
-div.list-div ul li{
+/* div.list-div ul li{
     display: inline;
     padding: 5px;
     margin-top: 5px;
     font-weight: 700;
 
-}
+} */
+
 span{
 color: black;
 }
@@ -79,6 +84,8 @@ color: black;
     display: none;
     
 }
+
+
 
 p{ 
     color: black;
@@ -96,7 +103,7 @@ h3{
 }
 
 section{
-    margin-top: 10px;
+    margin-top: 68px;
     height: 600px;
 }
 
@@ -110,3 +117,9 @@ align-items: center;
 justify-content: end;
 
 } */
+
+.checked{
+color: yellow;
+}
+
+
