@@ -74,4 +74,10 @@ margin-left:3% ;
 .checked{
     color: yellow;
     }
-    
+
+    section{
+
+        height: auto;
+        background-color: lightgrey;
+        padding-bottom: 1px;
+    }

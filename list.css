@@ -30,6 +30,11 @@
     align-items: baseline; */
 
 } 
+.outer-div:hover{
+    background-color: rosybrown;
+}
+
+
  #outer{
     
     display: flex;
@@ -103,8 +108,9 @@ h3{
 }
 
 section{
-    margin-top: 68px;
+    margin-top: 76px;
     height: 600px;
+    background-color: lightgray;
 }
 
 .inner-footer-div{

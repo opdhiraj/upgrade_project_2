@@ -5,6 +5,11 @@
    /* margin: -8px 0px -16px -7px; */
 
 }
+#main-body{
+    background-color: lightgray;
+}
+
+
 #hotel-rad-pay-detail{
     width: 75%;
     height: 200px;
