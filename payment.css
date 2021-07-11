@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
    background-color: #e0e0e0;
-   /* margin: -8px 0px -16px -7px; */
+  
 
 }
 #main-body{
@@ -16,42 +16,13 @@
     display: flex;
     background-color:  rgb(132,136,139);
     background-position: center;
-    /* margin: 0 auto; */
-    /* margin-top: 2%;
-    margin-bottom: 2%; */
+    
     align-self: center;
     
 
 }
 
 
-/* 
-#hotel-rad-pay-detail p{
- padding-top:  10px ;
- padding-right: 10px;
- 
- } */
-
-
-
-
-/* #hotel-rad-pay-detail h3{  */
-    /* width: 500px; */
-    /* height: 300px; */
-    /* display: flex; */
-    /* padding-top:  10px;
-    padding-right: 10px;
-    padding-bottom: 10px ;
-} 
-
-
-/* #radisson-image-p{
-    margin-top: -28px;
-    height: 500px;
-    width: 500px;
-    max-width: 300px;
-    max-height: 270px;
-} */
 
  #cust-name p{
     font-weight: bold;
@@ -68,7 +39,7 @@
 }
 #tariff-div {
     margin: 25px;
-    /* border: 1px solid black; */
+   
     border-radius: 2px;
    font-weight: bold;
     padding-left: 2%;
@@ -86,12 +57,7 @@
 #tariff-div span{
     font-weight: normal;
 }
-/* section div{
-   padding-top: 15px;
-   padding-right: 15px;
-   padding-bottom: 15px;
-} */
-    
+
 a{
     
 color: black;
@@ -107,7 +73,7 @@ font-weight: bold;
     display: flex;
     width: 700px;
     height: 250px;
-    margin: 70px auto;
+    margin: 0px auto 10px;
     padding: 1px;
     background-color: rgb(132, 136, 139);
 }
@@ -121,7 +87,7 @@ font-weight: bold;
 
 #cust-det-sec{
    
-    /* width: auto; */
+    
     display: flex;
     border-radius: 2px;
     border: 1px solid black;
@@ -131,17 +97,6 @@ font-weight: bold;
    margin-left: 30px;
    margin-right: 30px;
    justify-content: space-between;
-
-
-
-   /* margin-bottom: 15%; */
-   /* margin: 0 auto; */
-   /* align-self: center; */
-   /* margin-bottom: 15px;
-   margin-left: 10px; */
-   
-
-
 
 }
 

@@ -1,9 +1,5 @@
 
-.main-div{
-    width: 100%;
-   background-color: #e0e0e0;
-   /* margin: -8px 0px -16px -7px; */
-}
+
 
 
 .radisson-image{
@@ -17,14 +13,11 @@
 
 
 #form-div{
-    /* display: flex; */
-    width: 30%;
-    height: 601px;
+    display: flex;
+    /* width: 30%;
+    height: 601px; */
     justify-content: space-between;
-/*     
-     margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 1%;  */
+
     margin-top: 0px;
     padding: 1%;
     border: 1px solid black;
@@ -53,13 +46,12 @@ p{
 
 #section-div{
     display: flex;
-    width:90%;
+    width:100%;
     align-items: center;
     justify-self: end;
     
     border: 1px solid black;
-margin-top: 58px;
-margin-left:3% ;
+
     column-rule-style: solid;
 }
 

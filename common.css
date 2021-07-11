@@ -21,8 +21,23 @@
 
 section{
     height: 1000px;
+    background-color: #e0e0e0;
+}
+
+
+#loginform{
+    display: none;
+    position: absolute;
+    /* z-index: 999; */
+   background-color: white;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    left: 50%;
 
 }
+
+
 
 
 .body-dis{
@@ -35,15 +50,13 @@ section{
     
      }
     
-
-
+    
 
 .logo-image{
     display: flex;
     height: 60px;
     width: 60px;
-    margin-right: -1px;
-    margin-left: 10%;
+   
 }
 
 .city-image{
@@ -87,27 +100,29 @@ margin-top: 25px;
 }
 
 
-.header-bg{
+#navbar{
     display: flex;
     width: 100%;
-background-color: rosybrown;
-/* margin: -3px; */
-position: absolute;
-top: 0;
-/* margin-left: -2px; */
+    height: 60px; 
+background-color: rosybrown; 
+justify-content: space-between
+
 }
 
+.nav-links{
+    float:right ;
+}
 
-
+/* 
 .login-div{
     
      position: absolute;
    right: 15px;
    top: 45%;
-  /* font-weight: bold; */
+  
   color: black; 
   
-}
+} */
 
 
 
@@ -250,7 +265,7 @@ width: 100%;
 
 .new-city-cart{
 width: 25%;
-
+display: none;
 }
 
 
@@ -261,33 +276,54 @@ width: 25%;
 
 
 
-
+/* 
 #footer-in{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rosybrown; 
-}
+} */
 
  
-#login-buttom{
+ /* #login-buttom{
+   
     right: 0px;
     position: absolute;
-    top: 0px;
-    margin-top: 5px;
-}
+    
+    
+} */
 
 #contact-button{
     margin-left: 8px;
 }
 
 
-/* section{
-    height:725px;
-}
-    */
+
 
 #maphover:hover{
     display: block;
+}
+
+.footerclass{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rosybrown; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#contForm{
+    width: 100%;
+    height: 200px;
+    border: 3px solid yellow;
+    display: none;
+    background-color: #e0e0e0;
+
+}
+
+#login1{
+    background-color: #e0e0e0;
 }

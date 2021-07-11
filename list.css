@@ -2,19 +2,11 @@
 #main-div{
     
     width: 100%;
-    /* height: 100%;
-   display: flex; */
     
    background-color: #e0e0e0;
    margin: -8px 0px -16px -2px;
 
 }
-
-/* .detail-rest{
-    height: 200px;
-    width: 250px;
-} */
-
 
  .outer-div{
     display: flex;
@@ -25,9 +17,7 @@
     /* background-color: rgb(132,136,139) ; */
     background-color: lightgray;
     margin: 12px;
-   
-    /* padding: 5px;
-    align-items: baseline; */
+
 
 } 
 .outer-div:hover{
@@ -41,15 +31,10 @@
    
     flex-wrap: wrap;
    
-   
-
-
- }
+   }
 
  .hotel-detail{
-     /* display: flex;
-     justify-content: center;
-     align-items: flex-end; */
+     
      padding: 10px;
     
  }
@@ -59,7 +44,6 @@
     height: 200px;
     width: 250px;
 
-    /* width: 40%; */
     border: 0px solid lightgray;
     
 }
@@ -73,13 +57,7 @@
 }
 
 
-/* div.list-div ul li{
-    display: inline;
-    padding: 5px;
-    margin-top: 5px;
-    font-weight: 700;
 
-} */
 
 span{
 color: black;
@@ -108,7 +86,7 @@ h3{
 }
 
 section{
-    margin-top: 76px;
+   
     height: 600px;
     background-color: lightgray;
 }
@@ -119,10 +97,7 @@ justify-content: flex-end;
 align-items: center;
 
 }
-/* .footer-div.inner-footer-div{
-justify-content: end;
 
-} */
 
 .checked{
 color: yellow;
